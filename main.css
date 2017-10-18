@@ -1,0 +1,62 @@
+#first {
+   height: 400px;
+   background-image: url("https://imasters.com/wp-content/uploads/sites/24/2016/09/7_Navegando.gif");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.navbar-inverse .navbar-brand {
+   color: #00FF00;
+   font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+   color: #00FF00;
+}
+
+.section1 {
+   text-align: center;
+}
+
+.jumbotron {
+   background-color: #101010;
+}
+
+.jumbotron h1 {
+   color: #00FF00;
+}
+
+.jumbotron p {
+   color: white;
+}
+
+.well {
+   background-color: #101010;
+}
+
+.well h1 {
+   color: #00FF00;
+}
+
+h2 {
+   color: #00FF00;
+}
+
+#abc {
+   height: 325px;
+}
+
+#myDIV {
+   background-color: #101010;
+   color: white;
+   margin-top: -20px;
+   margin-right: -10px;
+}
+
+#myDIV1 {
+   background-color: #101010;
+   color: white;
+   margin-top: -20px;
+   margin-right: -10px;
+}

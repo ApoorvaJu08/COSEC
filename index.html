@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+  <head>
+    <title>COSEC</title>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+  <body>
+    <div class="container-fluid" id="first">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">COSEC</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#aboutus" data-scroll="true" data-id="#aboutus">About Us</a></li>
+              <li><a href="#whatwedo" data-scroll="true" data-id="#whatwedo">What We Do</a></li>
+              <li><a onclick="myFunction()">Log in</a></li>
+              <li><a onclick="myFunction1()">Sign up</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="section1" id="aboutus" >
+       <div class="jumbotron">
+        <h1>About us</h1>
+         <p>We are a part of JECRC students only with an aim to contribute to an open source community.Cosec is an open source community which means that its code is accessible by everyone and can be modified and resubmitted.Cosec community desires both developers and learners.Boyh developers and learners are essential in giving upliftment to a new technology which is on it's ground right now.</p>
+      </div>
+    </div>
+
+    <!-- What We do Section -->
+    <div class="well text-center" id="whatwedo">
+    <h1>What We Do</h1>
+    </div>
+        <div class="row">
+           <div class="col-sm-4 jumbotron text-center" id="abc">
+           <h2>Know You</h2>
+           <p>We identify your feild of interest in coding</p>
+           <p>According to your interest whether it is in graphiv designing or web designingor in android development, we teach you and help you grow.</p>
+          </div>
+          <div class="col-sm-4 jumbotron text-center" id="abc">
+          <h2>Help you prepare projects</h2>
+          <p>Not everybody has the capability of being mindblowing.</p>
+          <p>We help you prepare 8 projects at the end of your third year which will boost up your confidence while presenting your resume in front of anybody.</p>
+          </div>
+         <div class="col-sm-4 jumbotron text-center" id="abc">
+         <h2>Participate in Hackathons</h2>
+         <p>Not only learning, execution is also important.</p>
+         <p>We will help you participate in various hackathons to achieve an accepted means of benefit for your resume.</p>
+        </div>
+     </div>
+
+     <div class="container-fluid" id="myDIV" style="display:block;">
+       <form class="form-horizontal" action="/action_page.php">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Password:</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="login" class="btn btn-default">Log in</button>
+            </div>
+          </div>
+       </form>
+     </div>
+
+     <div class="container-fluid" id="myDIV1" style="display:none;">
+       <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="name">Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Password:</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="signup" class="btn btn-default">Sign up</button>
+            </div>
+          </div>
+       </form>
+     </div>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
